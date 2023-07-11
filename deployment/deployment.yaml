@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: qod-db
-          image: docker.io/swathi1174/qod-db
+          image: marksjwhite/qod-db
           imagePullPolicy: Always
           ports:
             - name: mysql
