@@ -19,7 +19,7 @@ spec:
           image: swathi1174/qod-db
           imagePullPolicy: Always
           ports:
-            - name: mysql
+            - name: 3306
               containerPort: 3306
               protocol: TCP
           env:
