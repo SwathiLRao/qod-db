@@ -19,7 +19,7 @@ spec:
           image: saianilkumardeyyala/qod-db
           imagePullPolicy: Always
           ports:
-            - name: 3306-tcp
+            - name: mysql
               containerPort: 3306
               protocol: TCP
           env:
