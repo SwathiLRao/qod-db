@@ -19,7 +19,7 @@ spec:
           image: swathi1174/qod-db
           imagePullPolicy: Always
           ports:
-            - name: 3306
+            - name: 3306-tcp
               containerPort: 3306
               protocol: TCP
           env:
