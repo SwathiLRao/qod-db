@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: qod-db
-          image: marksjwhite/qod-db
+          image: saianilkumardeyyala/qod-db
           imagePullPolicy: Always
           ports:
             - name: mysql
