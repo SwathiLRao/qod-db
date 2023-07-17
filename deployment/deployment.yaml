@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: qod-db
-          image: swathi1174/qod-db
+          image: saianilkumardeyyala/qod-db
           imagePullPolicy: Always
           ports:
             - name: 3306-tcp
