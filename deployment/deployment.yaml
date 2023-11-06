@@ -23,12 +23,12 @@ spec:
               containerPort: 3306
               protocol: TCP
           resources:
-          limits:
-            cpu: 10m
-            memory: 28Mi
-          requests:
-            cpu: 10m
-            memory: 28Mi
+            limits:
+              cpu: 10m
+              memory: 28Mi
+            requests:
+              cpu: 10m
+              memory: 28Mi
           env:
             - name: MYSQL_ROOT_PASSWORD
               value: root
